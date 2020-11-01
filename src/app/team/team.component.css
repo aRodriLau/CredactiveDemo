@@ -1,0 +1,24 @@
+.team
+{
+    margin-bottom: 20px;
+    border: 5px solid transparent;
+}
+
+@media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 960px;
+    margin-top: 55px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }

@@ -1,0 +1,25 @@
+
+  .container1::after {
+    content: "";
+    background: url(../../assets/new.JPG);
+    background-repeat:no-repeat;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    object-fit: contain;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    flex: 1; 
+  }
+
+  .lead{
+    color:#643a10;
+    font-weight: 600;
+    font-size: 22px;
+  }
